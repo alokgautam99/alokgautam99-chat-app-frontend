@@ -3,7 +3,7 @@ import socketIo from "socket.io-client";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 import "./App.css";
 
-const ENDPOINT = "http://localhost:4400/";
+const ENDPOINT = "https://alokgautam99-chat-app-backend.onrender.com/";
 let socket;
 
 const App = () => {
